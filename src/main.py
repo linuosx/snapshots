@@ -7,9 +7,10 @@ import logging
 def main():
     logging.basicConfig(
         level=logging.INFO,
-        format='%(asctime)s - %(levelname)s - %(message)s'
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        filename='/var/log/snapshots/snapshot.log',
+        filemode='a'
     )
-
     compute_client = get_compute_client(SNAPSHOT_CONFIF["SUBSCRIPTION_ID"])
     vm = compute_client.virtual_machines.get(SNAPSHOT_CONFIF["SOURCE_RG"], SNAPSHOT_CONFIF["VM_NAME"])
 

@@ -1,0 +1,2 @@
+# Ejecuta main.py en el entorno virtual de virtualenvwrapper todos los viernes a las 22:00
+0 22 * * 5 cd snapshots/src && python main.py
