@@ -9,6 +9,7 @@ dependencies = [
     "azure-identity",
     "azure-mgmt-compute",
     "python-decouple",
+    "systemd-python>=235",
 ]
 requires-python = ">=3.11"
 readme = "README.md"

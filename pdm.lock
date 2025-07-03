@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:a9346fa09e8e4deefb7907fae1b53a83ea368bfcd2a6b97f1ca5b2d0cba0fc8c"
+content_hash = "sha256:3173e7a94aedc582709e91ce278377ed60cc5239a7ccba0414905e50af2ba8d3"
 
 [[metadata.targets]]
 requires_python = ">=3.11"
@@ -367,6 +367,15 @@ groups = ["default"]
 files = [
     {file = "six-1.17.0-py2.py3-none-any.whl", hash = "sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"},
     {file = "six-1.17.0.tar.gz", hash = "sha256:ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81"},
+]
+
+[[package]]
+name = "systemd-python"
+version = "235"
+summary = ""
+groups = ["default"]
+files = [
+    {file = "systemd-python-235.tar.gz", hash = "sha256:4e57f39797fd5d9e2d22b8806a252d7c0106c936039d1e71c8c6b8008e695c0a"},
 ]
 
 [[package]]
