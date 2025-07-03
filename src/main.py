@@ -7,9 +7,7 @@ import logging
 def main():
     logging.basicConfig(
         level=logging.INFO,
-        format='%(asctime)s - %(levelname)s - %(message)s',
-        filename='/tmp/snapshot.log',
-        filemode='a'
+        format='%(asctime)s - %(levelname)s - %(message)s'
     )
 
     compute_client = get_compute_client(SNAPSHOT_CONFIF["SUBSCRIPTION_ID"])
